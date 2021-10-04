@@ -7,7 +7,7 @@ class Game:
 
     def __init__(self):
         pygame.init()  # Init pygame
-        self.FPS = 20
+        self.FPS = 120
         self.fpsClock = pygame.time.Clock()
         self.xScreen, self.yScreen = 640, 800  # Screen create
         self.VBullet = 15  # Tốc độ Bullet
