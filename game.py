@@ -16,20 +16,13 @@ class Game:
         self.scores = 0  # Điểm số
         self.numberEnemy = 2  # Số lượng enemy trong một screen
         self.numberBullet = 6  # Số bullet trong một screen
-        self.linkBackGround = 'C:/Users/ADMIN/Desktop/Tai lieu/hoc online 3/lap trinh python/space ' \
-                              'invaders/data/hinh-nen-vu-tru-khong-gian-bi-an.jpg'  # Đường dẫn ảnh background
-        self.linkEnemy = 'C:/Users/ADMIN/Desktop/Tai lieu/hoc online 3/lap trinh python/space ' \
-                         'invaders/data/enemy.png'  # Đường dẫn ảnh Enemy
-        self.linkPlanes = 'C:/Users/ADMIN/Desktop/Tai lieu/hoc online 3/lap trinh python/space ' \
-                          'invaders/data/planes.png'  # Đường dẫn ảnh Planes
-        self.musicBullet = mixer.Sound('C:/Users/ADMIN/Desktop/Tai lieu/hoc online 3/lap trinh python/space '
-                                       'invaders/data/laser.wav')
-        self.musicBackground = mixer.Sound('C:/Users/ADMIN/Desktop/Tai lieu/hoc online 3/lap trinh python/space '
-                                           'invaders/data/Victory.wav')
-        self.musicTheme = mixer.Sound('C:/Users/ADMIN/Desktop/Tai lieu/hoc online 3/lap trinh python/space '
-                                      'invaders/data/musictheme.wav')
-        self.musicEnd = mixer.Sound('C:/Users/ADMIN/Desktop/Tai lieu/hoc online 3/lap trinh python/space '
-                                    'invaders/data/musicend.mp3')
+        self.linkBackGround = './hinh-nen-vu-tru-khong-gian-bi-an.jpg'  # Đường dẫn ảnh background
+        self.linkEnemy = './enemy.png'  # Đường dẫn ảnh Enemy
+        self.linkPlanes = './planes.png'  # Đường dẫn ảnh Planes
+        self.musicBullet = mixer.Sound('./laser.wav')
+        self.musicBackground = mixer.Sound('./Victory.wav')
+        self.musicTheme = mixer.Sound('./musictheme.wav')
+        self.musicEnd = mixer.Sound('./musicend.mp3')
         self.sizexPlanes, self.sizeyPlanes = 80, 80
         self.xPlanes, self.yPlanes = self.xScreen / \
                                      2 - 45, self.yScreen - 100  # Khởi tao vị trí ban đầu planes
@@ -78,7 +71,7 @@ class Game:
             xBullet = i["xBullet"]  # Lấy trục tọa độ theo X
             yBullet = i["yBullet"]  # Lấy trục tọa độ theo X
             self.image_draw(
-                'C:/Users/ADMIN/Desktop/Tai lieu/hoc online 3/lap trinh python/space invaders/data/bullet.png', xBullet,
+                './bullet.png', xBullet,
                 yBullet, 25, 60)  # In ra bullet
             self.listBullet[count]["yBullet"] = yBullet - \
                                                 self.VBullet  # Tiến y vè phía trước
