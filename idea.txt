@@ -19,4 +19,4 @@
 nâng cấp (đạn vĩnh viễn, tăng dame, tăng máu..., hoặc làm các loại máy bay mới với các hiệu ứng riêng xong cho mua 1 lần luôn), thêm item
 (mua từ cửa hàng, mua lúc bắt đầu game và trước khi đánh boss)
 
-xây dựng menu, làm giao diện mua đồ trong game
+Nam: xây dựng menu, làm giao diện mua đồ trong game
