@@ -8,8 +8,6 @@
 - Thêm boss
 - Thêm đạn của kẻ địch
 - Thêm hiệu ứng khi đạn trúng quái
-- Xử lý âm thanh nền
-- Xử lý âm thanh đạn
 
 * Linh, Tuấn Anh: 1 (thuộc tính object): thêm thanh máu, thêm các loại quái(xuất hiện random hoặc theo bầy, được số điểm/vàng khác nhau khi tiêu diệt), thêm
  đạn của kẻ địch, thêm boss(có hiệu ứng đạn, rơi item tương ứng khi chết... và đương nhiên phải to, rất to), đạn tự bắn
