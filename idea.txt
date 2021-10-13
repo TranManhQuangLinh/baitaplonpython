@@ -13,7 +13,7 @@
 
 * Linh, Tuấn Anh: 1 (thuộc tính object): thêm thanh máu, thêm các loại quái(xuất hiện random hoặc theo bầy, được số điểm/vàng khác nhau khi tiêu diệt), thêm
  đạn của kẻ địch, thêm boss(có hiệu ứng đạn, rơi item tương ứng khi chết... và đương nhiên phải to, rất to), đạn tự bắn
-- (hình ảnh, âm thanh): làm background động, xử lý âm thanh nền, xử lý âm thanh đạn, xử lý va chạm
+- (hình ảnh, âm thanh): xử lý âm thanh đạn, xử lý va chạm
 
 * Nam, Chính: 2 (giao diện + thuộc tính): Store:thêm các loại đạn, thêm hiệu ứng khi đạn trúng quái(nổ gây sát thương vùng, giật điện, đóng băng...), 
 nâng cấp (đạn vĩnh viễn, tăng dame, tăng máu..., hoặc làm các loại máy bay mới với các hiệu ứng riêng xong cho mua 1 lần luôn), thêm item
