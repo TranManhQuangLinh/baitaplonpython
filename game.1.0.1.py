@@ -17,7 +17,7 @@ class Game:
         self.scores = 0  # Điểm số
         self.numberEnemy = 2  # Số lượng enemy trong một screen
         self.numberBullet = 6  # Số bullet trong một screen
-        self.linkBackGround = './background1.jpg'  # Đường dẫn ảnh background
+        self.linkBackGround = './background 1.jpg'  # Đường dẫn ảnh background
         self.linkEnemy = './enemy.png'  # Đường dẫn ảnh Enemy
         self.linkPlanes = './planes.png'  # Đường dẫn ảnh Planes
         self.musicBullet = mixer.Sound('./laser.wav')
